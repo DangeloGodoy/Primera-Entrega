@@ -1,42 +1,72 @@
 [
   {
-    "id": "5d3b3fda-90bd-4d29-abd5-c89daf1f7ac4",
-    "title": "Producto1",
-    "description": "Este es el primer producto",
-    "code": "producto1",
-    "price": 111,
+    "id": "a1b2c3d4-e5f6-7890-abcd-1234567890ef",
+    "title": "Auriculares Bluetooth",
+    "description": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración.",
+    "code": "auriculares001",
+    "price": 150,
     "status": true,
-    "stock": 1,
-    "category": "Electronico",
+    "stock": 25,
+    "category": "Audio",
     "thumbnails": [
-      "img1",
-      "img2"
+      "auriculares1.jpg",
+      "auriculares2.jpg"
     ]
   },
   {
-    "id": "41c4f281-f0e4-4950-bfb4-52aefdc194e6",
-    "title": "Producto1",
-    "description": "Este es el primer producto",
-    "code": "producto1",
-    "price": 111,
+    "id": "1234abcd-5678-ef90-ghij-0987654321kl",
+    "title": "Monitor UltraWide",
+    "description": "Monitor de 34 pulgadas con resolución QHD y tecnología HDR.",
+    "code": "monitor001",
+    "price": 400,
     "status": true,
-    "stock": 1,
-    "category": "Electronico",
+    "stock": 10,
+    "category": "Monitores",
     "thumbnails": [
-      "img.jpg"
+      "monitor1.jpg",
+      "monitor2.jpg"
     ]
   },
   {
-    "id": "fc7da031-8d8a-46cf-92d4-6da5079d69d3",
-    "title": "Producto1",
-    "description": "Este es el primer producto",
-    "code": "producto1",
-    "price": 111,
+    "id": "abcd1234-ef56-7890-ghij-5432167890kl",
+    "title": "Laptop Gaming",
+    "description": "Laptop de alto rendimiento con tarjeta gráfica RTX 3060.",
+    "code": "laptop001",
+    "price": 1500,
     "status": true,
-    "stock": 1,
-    "category": "Electronico",
+    "stock": 5,
+    "category": "Computadoras",
     "thumbnails": [
-      "img.jpg"
+      "laptop1.jpg",
+      "laptop2.jpg"
+    ]
+  },
+  {
+    "id": "4321dcba-8765-fe90-jihg-1234567890lk",
+    "title": "Teclado Mecánico",
+    "description": "Teclado con switches mecánicos y retroiluminación RGB.",
+    "code": "teclado001",
+    "price": 100,
+    "status": true,
+    "stock": 20,
+    "category": "Accesorios",
+    "thumbnails": [
+      "teclado1.jpg",
+      "teclado2.jpg"
+    ]
+  },
+  {
+    "id": "7890abcd-6543-ef12-ghij-0987654321lk",
+    "title": "Cámara de Seguridad",
+    "description": "Cámara de seguridad con visión nocturna y detección de movimiento.",
+    "code": "camara001",
+    "price": 80,
+    "status": true,
+    "stock": 15,
+    "category": "Seguridad",
+    "thumbnails": [
+      "camara1.jpg",
+      "camara2.jpg"
     ]
   }
 ]

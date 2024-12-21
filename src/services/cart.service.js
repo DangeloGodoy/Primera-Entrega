@@ -36,7 +36,7 @@ class CartService {
     }
 
     async getByCid({ cid }) {
-        if(!cid) {
+        if(cid === ":cid") {
             throw new Error("El ID es requerido para buscar el carrito")
         }
 

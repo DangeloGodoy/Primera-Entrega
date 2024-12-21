@@ -89,10 +89,10 @@ Primera Entrega/
         - Elimina un producto por su ID.
 
 - **Carritos**
-    - **POST** /api/cart
+    - **POST** /api/carts
 	    - Crea un nuevo carrito vacío.
-	- **GET** /api/cart/:cid
+	- **GET** /api/carts/:cid
 	    - Obtiene los detalles de un carrito por su ID.
-	- **POST** /api/cart/:cid/product/:pid
+	- **POST** /api/carts/:cid/product/:pid
 	    - Agrega un producto al carrito.
 	    - Si el producto ya existe, incrementa su cantidad.
