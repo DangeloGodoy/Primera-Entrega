@@ -26,14 +26,17 @@ Este es un proyecto básico de backend desarrollado con **Node.js** y **Express.
    ```bash
    git clone https://github.com/DangeloGodoy/Primera-Entrega.git
    cd Primera-Entrega
+   ```
 
 2. Instala las dependencias:
     ```bash
     npm install
+    ```
 
 3. Inicia el servidor:
     ```bash
     npm run dev
+    ```
 
 4. El servidor estará corriendo en http://localhost:8000
 
@@ -67,6 +70,7 @@ Primera Entrega/
     - POST /api/products
         - Crea un nuevo producto.
         - Requiere los siguientes campos:
+            ```json
             {
                 "title": "string",
                 "description": "string",
@@ -75,6 +79,7 @@ Primera Entrega/
                 "category": "string",
                 "code": "string"
             }
+            ```
 
     - PUT /api/products/:pid
         - Actualiza un producto por su ID.
