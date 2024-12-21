@@ -42,6 +42,7 @@ Este es un proyecto básico de backend desarrollado con **Node.js** y **Express.
 
 ## 📂 Estructura de Carpetas
 
+```plaintext
 Primera Entrega/
 ├── src/
 │   ├── db/
@@ -57,17 +58,17 @@ Primera Entrega/
 ├── package.json
 ├── package-lock.json
 └── README.md
-
+```
 ## 🛣️ Rutas de la API
 
 - **Productos**
-    - GET /api/products
+    - **GET** /api/products
         - Obtiene todos los productos.
 
-    - GET /api/products/:pid
+    - **GET** /api/products/:pid
         - Obtiene un producto por su ID.
 
-    - POST /api/products
+    - **POST** /api/products
         - Crea un nuevo producto.
         - Requiere los siguientes campos:
             ```json
@@ -81,17 +82,17 @@ Primera Entrega/
             }
             ```
 
-    - PUT /api/products/:pid
+    - **PUT** /api/products/:pid
         - Actualiza un producto por su ID.
 
-    - DELETE /api/products/:pid
+    - **DELETE** /api/products/:pid
         - Elimina un producto por su ID.
 
 - **Carritos**
-    - POST /api/cart
+    - **POST** /api/cart
 	    - Crea un nuevo carrito vacío.
-	- GET /api/cart/:cid
+	- **GET** /api/cart/:cid
 	    - Obtiene los detalles de un carrito por su ID.
-	- POST /api/cart/:cid/product/:pid
+	- **POST** /api/cart/:cid/product/:pid
 	    - Agrega un producto al carrito.
 	    - Si el producto ya existe, incrementa su cantidad.
