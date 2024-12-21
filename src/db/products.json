@@ -1,0 +1,42 @@
+[
+  {
+    "id": "5d3b3fda-90bd-4d29-abd5-c89daf1f7ac4",
+    "title": "Producto1",
+    "description": "Este es el primer producto",
+    "code": "producto1",
+    "price": 111,
+    "status": true,
+    "stock": 1,
+    "category": "Electronico",
+    "thumbnails": [
+      "img1",
+      "img2"
+    ]
+  },
+  {
+    "id": "41c4f281-f0e4-4950-bfb4-52aefdc194e6",
+    "title": "Producto1",
+    "description": "Este es el primer producto",
+    "code": "producto1",
+    "price": 111,
+    "status": true,
+    "stock": 1,
+    "category": "Electronico",
+    "thumbnails": [
+      "img.jpg"
+    ]
+  },
+  {
+    "id": "fc7da031-8d8a-46cf-92d4-6da5079d69d3",
+    "title": "Producto1",
+    "description": "Este es el primer producto",
+    "code": "producto1",
+    "price": 111,
+    "status": true,
+    "stock": 1,
+    "category": "Electronico",
+    "thumbnails": [
+      "img.jpg"
+    ]
+  }
+]
