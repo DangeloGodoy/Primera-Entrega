@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import { productService } from '../services/product.service.js';
+import { io } from '../server.js';
 
 export const productsRouter = Router();
 
@@ -62,6 +63,8 @@ productsRouter.post("/", async (req, res) => {
             category, 
             thumbnails: thumbnails ?? [] 
         });
+
+        io.emit("new-product", { title, price })
 
         return res.status(201).json({ message: "Producto creado", product });
     } catch (error) {

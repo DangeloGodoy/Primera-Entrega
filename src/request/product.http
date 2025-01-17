@@ -1,0 +1,20 @@
+### GET Products
+GET http://localhost:8000/api/products
+
+### POST Product
+POST http://localhost:8000/api/products
+Content-Type: application/json
+
+{
+    "title": "Smartwatch Deportivo",
+    "description": "Reloj inteligente con monitoreo de ritmo cardíaco y GPS integrado.",
+    "code": "smartwatch007",
+    "price": 200,
+    "status": true,
+    "stock": 18,
+    "category": "Wearables",
+    "thumbnails": [
+      "smartwatch1.jpg",
+      "smartwatch2.jpg"
+    ]
+}

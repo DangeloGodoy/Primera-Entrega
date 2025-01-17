@@ -68,5 +68,89 @@
       "camara1.jpg",
       "camara2.jpg"
     ]
+  },
+  {
+    "id": "888571cb-cc4b-4136-bd3e-3ced6cd7aaea",
+    "title": "Auriculares Bluetooth",
+    "description": "Auriculares inalámbricos con cancelación de ruido y batería de larga duración.",
+    "code": "auriculares001",
+    "price": 150,
+    "status": true,
+    "stock": 25,
+    "category": "Audio",
+    "thumbnails": [
+      "auriculares1.jpg",
+      "auriculares2.jpg"
+    ]
+  },
+  {
+    "id": "3a1e1bbe-a813-4797-9e4b-557d7254bc71",
+    "title": "Teclado Mecánico RGB",
+    "description": "Teclado mecánico con switches azules y retroiluminación RGB.",
+    "code": "teclado002",
+    "price": 120,
+    "status": true,
+    "stock": 15,
+    "category": "Periféricos",
+    "thumbnails": [
+      "teclado1.jpg",
+      "teclado2.jpg"
+    ]
+  },
+  {
+    "id": "0ce24f67-0b06-4f6e-9f54-3f0acc56faf8",
+    "title": "Monitor UltraWide",
+    "description": "Monitor de 34 pulgadas con resolución QHD y tecnología HDR.",
+    "code": "monitor003",
+    "price": 450,
+    "status": true,
+    "stock": 10,
+    "category": "Monitores",
+    "thumbnails": [
+      "monitor1.jpg",
+      "monitor2.jpg"
+    ]
+  },
+  {
+    "id": "ecbbcae5-87b5-4f20-a087-5422d77c8433",
+    "title": "Mouse Inalámbrico",
+    "description": "Mouse ergonómico inalámbrico con sensor óptico de alta precisión.",
+    "code": "mouse004",
+    "price": 50,
+    "status": true,
+    "stock": 30,
+    "category": "Accesorios",
+    "thumbnails": [
+      "mouse1.jpg",
+      "mouse2.jpg"
+    ]
+  },
+  {
+    "id": "b521135d-cedb-41fc-987e-9cc960489f78",
+    "title": "Laptop Gamer",
+    "description": "Laptop de alto rendimiento con tarjeta gráfica RTX 3060.",
+    "code": "laptop005",
+    "price": 1800,
+    "status": true,
+    "stock": 5,
+    "category": "Computadoras",
+    "thumbnails": [
+      "laptop1.jpg",
+      "laptop2.jpg"
+    ]
+  },
+  {
+    "id": "a542ae90-cd6d-4a5d-b741-4bde86178519",
+    "title": "Smartwatch Deportivo",
+    "description": "Reloj inteligente con monitoreo de ritmo cardíaco y GPS integrado.",
+    "code": "smartwatch007",
+    "price": 200,
+    "status": true,
+    "stock": 18,
+    "category": "Wearables",
+    "thumbnails": [
+      "smartwatch1.jpg",
+      "smartwatch2.jpg"
+    ]
   }
 ]
