@@ -96,3 +96,14 @@ Primera Entrega/
 	- **POST** /api/carts/:cid/product/:pid
 	    - Agrega un producto al carrito.
 	    - Si el producto ya existe, incrementa su cantidad.
+
+## Versión 2.0
+
+Se agregar el sistema de WebSocket para la actualización de productos disponibles en la tienda, además, se agregar un motor de plantillas mediante Handlebars para la generación de HTLM dinamico.
+
+Se crean las siguientes paginas.
+- http://localhost:8000/
+    - Se utiliza para obtener los productos creados en la BD
+
+- http://localhost:8000/realtimeproducts
+    - Se utiliza para visualizar los nuevos productos creados
